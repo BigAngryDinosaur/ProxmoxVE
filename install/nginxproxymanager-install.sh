@@ -29,7 +29,8 @@ $STD apt install -y \
   python3-dev \
   python3-pip \
   python3-venv \
-  python3-cffi
+  python3-cffi \
+  python3-setuptools
 msg_ok "Installed Python Dependencies"
 
 msg_info "Setting up Certbot"
